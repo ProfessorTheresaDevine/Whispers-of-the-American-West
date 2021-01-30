@@ -191,6 +191,8 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: 50
+      Z: -50
     }
     Rotation {
     }
@@ -452,7 +454,8 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 500
+      X: -150
+      Z: 750
     }
     Rotation {
     }
@@ -574,7 +577,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 350
+      Z: 800
     }
     Rotation {
     }

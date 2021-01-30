@@ -1,22 +1,23 @@
 Name: "MapGrid"
 RootId: 3230840075271867913
 Objects {
-  Id: 437751072586697038
-  Name: "MapWalls"
+  Id: 16196924153266083812
+  Name: "Beta Floor"
   Transform {
     Location {
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.33
+      Y: 1.33
+      Z: 1.33
     }
   }
   ParentId: 3230840075271867913
-  ChildIds: 5158386566869087998
-  ChildIds: 6001903284532815141
+  ChildIds: 10191434882152707865
+  ChildIds: 11145257444793891484
+  ChildIds: 7769110143049794736
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -28,20 +29,177 @@ Objects {
   }
 }
 Objects {
-  Id: 6001903284532815141
-  Name: "Inner"
+  Id: 7769110143049794736
+  Name: "Cube - Polished"
   Transform {
     Location {
+      X: -780
+      Y: -450
+      Z: 350
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 6.17
+      Y: 15.75
+      Z: 0.25
     }
   }
-  ParentId: 437751072586697038
+  ParentId: 16196924153266083812
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13234655070956423295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11145257444793891484
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 450
+      Y: -350
+      Z: 350
+    }
+    Rotation {
+    }
+    Scale {
+      X: 18.5000114
+      Y: 18
+      Z: 0.25
+    }
+  }
+  ParentId: 16196924153266083812
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13234655070956423295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10191434882152707865
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: -1450
+      Y: -50
+      Z: 350
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.25
+      Y: 7.74999857
+      Z: 0.25
+    }
+  }
+  ParentId: 16196924153266083812
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13234655070956423295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 437751072586697038
+  Name: "MapWalls"
+  Transform {
+    Location {
+      Z: 250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.33
+      Y: 1.33
+      Z: 1.33
+    }
+  }
+  ParentId: 3230840075271867913
   ChildIds: 350691137620200308
   ChildIds: 16008848612710830645
   ChildIds: 10984875719778057379
@@ -49,7 +207,6 @@ Objects {
   ChildIds: 5262592245434918456
   ChildIds: 6280328561125093695
   ChildIds: 11384561954304929997
-  ChildIds: 215999203735185504
   ChildIds: 16798049240443777689
   ChildIds: 9319713172225497421
   ChildIds: 11349932441748981369
@@ -81,8 +238,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: -1.68759155
-      Roll: 1.6876148
+      Yaw: 179.367
+      Roll: -179.366974
     }
     Scale {
       X: 6
@@ -90,7 +247,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -125,8 +282,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: -169.975
-      Roll: 169.975
+      Yaw: 5.05115509
+      Roll: -5.05114746
     }
     Scale {
       X: 6
@@ -134,7 +291,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -176,7 +333,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -218,7 +375,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -260,7 +417,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -302,7 +459,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -337,8 +494,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: -90
-      Roll: 90
+      Yaw: 13.2626934
+      Roll: -13.2626953
     }
     Scale {
       X: 6
@@ -346,7 +503,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -389,7 +546,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -424,7 +581,7 @@ Objects {
     }
     Rotation {
       Pitch: 90
-      Roll: 90
+      Roll: 90.0000076
     }
     Scale {
       X: 6
@@ -432,7 +589,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -462,7 +619,7 @@ Objects {
   Transform {
     Location {
       X: -500
-      Y: 100
+      Y: 5.73638681e-06
       Z: 400
     }
     Rotation {
@@ -470,53 +627,11 @@ Objects {
     }
     Scale {
       X: 6
-      Y: 7.49999952
+      Y: 9.75
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13234655070956423295
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 215999203735185504
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: -500
-      Y: -395
-      Z: 400
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 6
-      Y: 1.85
-      Z: 0.25
-    }
-  }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -551,8 +666,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: -90
-      Roll: 180
+      Yaw: 7.12502289
+      Roll: 82.8749847
     }
     Scale {
       X: 6
@@ -560,7 +675,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -589,22 +704,22 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -650
+      X: -662
       Y: -290
       Z: 400
     }
     Rotation {
       Pitch: -90
-      Yaw: -90
-      Roll: 180
+      Yaw: 7.12502289
+      Roll: 82.8749847
     }
     Scale {
       X: 6
-      Y: 3.25000024
+      Y: 3
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -646,7 +761,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -681,8 +796,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: -90
-      Roll: 180
+      Yaw: 7.12502289
+      Roll: 82.8749847
     }
     Scale {
       X: 6
@@ -690,7 +805,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -732,7 +847,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -767,7 +882,8 @@ Objects {
     }
     Rotation {
       Pitch: -90
-      Yaw: 90
+      Yaw: -14.0362635
+      Roll: 104.03627
     }
     Scale {
       X: 6
@@ -775,7 +891,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -817,7 +933,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 6001903284532815141
+  ParentId: 437751072586697038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -842,10 +958,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5158386566869087998
-  Name: "Outer"
+  Id: 8714955733633449717
+  Name: "Grid"
   Transform {
     Location {
+      X: -350
+      Y: -500
+      Z: 100
     }
     Rotation {
     }
@@ -855,8 +974,31 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 437751072586697038
-  ChildIds: 588459167431243472
+  ParentId: 3230840075271867913
+  ChildIds: 15371373236474322183
+  ChildIds: 947440793964660591
+  ChildIds: 11816508972912630708
+  ChildIds: 15710037593625432253
+  ChildIds: 1309632608595443102
+  ChildIds: 10543572231271887220
+  ChildIds: 17806864614886297975
+  ChildIds: 5516196798291959217
+  ChildIds: 6572210368017636800
+  ChildIds: 5312591602385385007
+  ChildIds: 16095015012649888378
+  ChildIds: 5988530619831948418
+  ChildIds: 13818496598520655012
+  ChildIds: 18379208415983310119
+  ChildIds: 2379126800447346865
+  ChildIds: 15418154312611885337
+  ChildIds: 2668367035220940374
+  ChildIds: 9242846217976799490
+  ChildIds: 2881588919941072146
+  ChildIds: 13707143714660900163
+  ChildIds: 8333564144162863234
+  ChildIds: 15172282128032648611
+  ChildIds: 4333036966990639728
+  ChildIds: 7246589864699997537
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -868,55 +1010,12 @@ Objects {
   }
 }
 Objects {
-  Id: 588459167431243472
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: -2150
-      Y: -1400
-      Z: 400
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 6
-      Y: 6
-      Z: 0.2
-    }
-  }
-  ParentId: 5158386566869087998
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13234655070956423295
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 7246589864699997537
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 550
-      Y: -1400
-      Z: 100
+      X: 900
+      Y: -900
     }
     Rotation {
     }
@@ -926,7 +1025,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -966,9 +1065,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 1150
-      Y: 400
-      Z: 100
+      X: 1500
+      Y: 900
     }
     Rotation {
     }
@@ -978,7 +1076,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1018,9 +1116,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 1150
-      Y: -800
-      Z: 100
+      X: 1500
+      Y: -300
     }
     Rotation {
     }
@@ -1030,7 +1127,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1070,9 +1167,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 1150
-      Y: -1400
-      Z: 100
+      X: 1500
+      Y: -900
     }
     Rotation {
     }
@@ -1082,7 +1178,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1122,9 +1218,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 550
-      Y: -200
-      Z: 100
+      X: 900
+      Y: 300
     }
     Rotation {
     }
@@ -1134,7 +1229,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1174,9 +1269,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 550
-      Y: 400
-      Z: 100
+      X: 900
+      Y: 900
     }
     Rotation {
     }
@@ -1186,7 +1280,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1226,9 +1320,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 550
-      Y: -800
-      Z: 100
+      X: 900
+      Y: -300
     }
     Rotation {
     }
@@ -1238,7 +1331,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1278,9 +1371,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 1150
-      Y: -200
-      Z: 100
+      X: 1500
+      Y: 300
     }
     Rotation {
     }
@@ -1290,7 +1382,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1330,9 +1422,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -650
-      Y: -1400
-      Z: 100
+      X: -300
+      Y: -900
     }
     Rotation {
     }
@@ -1342,7 +1433,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1382,9 +1473,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -50
-      Y: 400
-      Z: 100
+      X: 300
+      Y: 900
     }
     Rotation {
     }
@@ -1394,7 +1484,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1434,9 +1524,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -50
-      Y: -800
-      Z: 100
+      X: 300
+      Y: -300
     }
     Rotation {
     }
@@ -1446,7 +1535,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1486,9 +1575,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -50
-      Y: -1400
-      Z: 100
+      X: 300
+      Y: -900
     }
     Rotation {
     }
@@ -1498,7 +1586,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1538,9 +1626,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -650
-      Y: -200
-      Z: 100
+      X: -300
+      Y: 300
     }
     Rotation {
     }
@@ -1550,7 +1637,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1590,9 +1677,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -650
-      Y: 400
-      Z: 100
+      X: -300
+      Y: 900
     }
     Rotation {
     }
@@ -1602,7 +1688,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1642,9 +1728,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -650
-      Y: -800
-      Z: 100
+      X: -300
+      Y: -300
     }
     Rotation {
     }
@@ -1654,7 +1739,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1694,9 +1779,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -50
-      Y: -200
-      Z: 100
+      X: 300
+      Y: 300
     }
     Rotation {
     }
@@ -1706,7 +1790,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1746,9 +1830,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1250
-      Y: -200
-      Z: 100
+      X: -900
+      Y: 300
     }
     Rotation {
     }
@@ -1758,7 +1841,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1798,9 +1881,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1250
-      Y: 400
-      Z: 100
+      X: -900
+      Y: 900
     }
     Rotation {
     }
@@ -1810,7 +1892,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1850,9 +1932,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1250
-      Y: -800
-      Z: 100
+      X: -900
+      Y: -300
     }
     Rotation {
     }
@@ -1862,7 +1943,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1902,9 +1983,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1250
-      Y: -1400
-      Z: 100
+      X: -900
+      Y: -900
     }
     Rotation {
     }
@@ -1914,7 +1994,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1954,9 +2034,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1850
-      Y: -200
-      Z: 100
+      X: -1500
+      Y: 300
     }
     Rotation {
     }
@@ -1966,7 +2045,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2006,9 +2085,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1850
-      Y: 400
-      Z: 100
+      X: -1500
+      Y: 900
     }
     Rotation {
     }
@@ -2018,7 +2096,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2058,9 +2136,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1850
-      Y: -800
-      Z: 100
+      X: -1500
+      Y: -300
     }
     Rotation {
     }
@@ -2070,7 +2147,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2110,9 +2187,8 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1850
-      Y: -1400
-      Z: 100
+      X: -1500
+      Y: -900
     }
     Rotation {
     }
@@ -2122,7 +2198,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3230840075271867913
+  ParentId: 8714955733633449717
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
