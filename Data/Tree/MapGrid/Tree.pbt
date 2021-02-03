@@ -15,9 +15,7 @@ Objects {
     }
   }
   ParentId: 3230840075271867913
-  ChildIds: 10191434882152707865
   ChildIds: 11145257444793891484
-  ChildIds: 7769110143049794736
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29,71 +27,20 @@ Objects {
   }
 }
 Objects {
-  Id: 7769110143049794736
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: -780
-      Y: -450
-      Z: 350
-    }
-    Rotation {
-    }
-    Scale {
-      X: 6.17
-      Y: 15.75
-      Z: 0.25
-    }
-  }
-  ParentId: 16196924153266083812
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13234655070956423295
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 11145257444793891484
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: 450
+      X: -112.782288
       Y: -350
       Z: 350
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
-      X: 18.5000114
-      Y: 18
+      X: 18
+      Y: 33.5
       Z: 0.25
     }
   }
@@ -103,62 +50,20 @@ Objects {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 1
-        G: 1
-        B: 1
+        G: 0.733333349
+        B: 0.21960786
         A: 1
       }
     }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13234655070956423295
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10191434882152707865
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: -1450
-      Y: -50
-      Z: 350
-    }
-    Rotation {
-    }
-    Scale {
-      X: 7.25
-      Y: 7.74999857
-      Z: 0.25
-    }
-  }
-  ParentId: 16196924153266083812
-  UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14850790277234973493
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -217,6 +122,7 @@ Objects {
   ChildIds: 7310231288069167191
   ChildIds: 8014323032027822950
   ChildIds: 1245947266750827547
+  ChildIds: 17944341599217941813
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -228,13 +134,67 @@ Objects {
   }
 }
 Objects {
+  Id: 17944341599217941813
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: 350
+      Y: -500
+      Z: 325
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 90
+    }
+    Scale {
+      X: 3
+      Y: 4.75
+      Z: 0.25
+    }
+  }
+  ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13234655070956423295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 1245947266750827547
   Name: "Cube - Polished"
   Transform {
     Location {
       X: 1250
       Y: -450
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -242,12 +202,23 @@ Objects {
       Roll: -179.366974
     }
     Scale {
-      X: 6
+      X: 3
       Y: 4.25
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -278,7 +249,7 @@ Objects {
     Location {
       X: 1000
       Y: -1025
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -286,12 +257,23 @@ Objects {
       Roll: -5.05114746
     }
     Scale {
-      X: 6
+      X: 3
       Y: 4.25
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -322,18 +304,29 @@ Objects {
     Location {
       X: 600
       Y: -500
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 2.5
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -364,18 +357,29 @@ Objects {
     Location {
       X: 975
       Y: 200
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 5.75000048
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -406,18 +410,29 @@ Objects {
     Location {
       X: 350
       Y: 400
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 1.85
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -448,18 +463,29 @@ Objects {
     Location {
       X: 100
       Y: -450
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 6.75000048
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -490,7 +516,7 @@ Objects {
     Location {
       X: -450
       Y: -1100
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -498,12 +524,23 @@ Objects {
       Roll: -13.2626953
     }
     Scale {
-      X: 6
+      X: 3
       Y: 2.5
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -534,19 +571,30 @@ Objects {
     Location {
       X: 475
       Y: 500
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: 90
       Roll: 90.0000076
     }
     Scale {
-      X: 6
+      X: 3
       Y: 20
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -577,19 +625,30 @@ Objects {
     Location {
       X: 175
       Y: -1250
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: 90
       Roll: 90.0000076
     }
     Scale {
-      X: 6
+      X: 3
       Y: 25.25
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -619,19 +678,29 @@ Objects {
   Transform {
     Location {
       X: -500
-      Y: 5.73638681e-06
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 9.75
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -662,7 +731,7 @@ Objects {
     Location {
       X: -650
       Y: -500
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -670,12 +739,23 @@ Objects {
       Roll: 82.8749847
     }
     Scale {
-      X: 6
+      X: 3
       Y: 3.25000024
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -704,9 +784,9 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -662
+      X: -661.999939
       Y: -290
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -714,12 +794,23 @@ Objects {
       Roll: 82.8749847
     }
     Scale {
-      X: 6
+      X: 3
       Y: 3
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -750,18 +841,29 @@ Objects {
     Location {
       X: -800
       Y: 50
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 6.5
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -792,7 +894,7 @@ Objects {
     Location {
       X: -1300
       Y: 350
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
@@ -800,12 +902,23 @@ Objects {
       Roll: 82.8749847
     }
     Scale {
-      X: 6
+      X: 3
       Y: 9.74999809
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -836,18 +949,29 @@ Objects {
     Location {
       X: -1770
       Y: -50
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 7.75000048
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -876,22 +1000,33 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -1450
+      X: -1450.00012
       Y: -450
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: -90
-      Yaw: -14.0362635
+      Yaw: -14.0362549
       Roll: 104.03627
     }
     Scale {
-      X: 6
+      X: 3
       Y: 6.75000048
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -922,18 +1057,29 @@ Objects {
     Location {
       X: -1100
       Y: -850
-      Z: 400
+      Z: 325
     }
     Rotation {
       Pitch: 90
     }
     Scale {
-      X: 6
+      X: 3
       Y: 8.25
       Z: 0.25
     }
   }
   ParentId: 437751072586697038
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
