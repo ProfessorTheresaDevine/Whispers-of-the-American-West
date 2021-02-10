@@ -48,9 +48,9 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 13561624823128414920
   ChildIds: 3290782922354076997
   ChildIds: 9174921432250506119
+  ChildIds: 13561624823128414920
   ChildIds: 7719678015805827233
   ChildIds: 1603571250385292945
   ChildIds: 2320004007310499818
@@ -81,7 +81,7 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: 800
+      X: 792.038513
       Y: -650
       Z: 500
     }
@@ -90,7 +90,7 @@ Objects {
     }
     Scale {
       X: 0.81
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -139,14 +139,14 @@ Objects {
     Location {
       X: 140
       Y: -1050
-      Z: 500
+      Z: 499.688171
     }
     Rotation {
       Yaw: 89.9999542
     }
     Scale {
-      X: 1.14
-      Y: 1
+      X: 1.14000046
+      Y: 0.335099638
       Z: 0.75
     }
   }
@@ -202,7 +202,7 @@ Objects {
     }
     Scale {
       X: 0.43
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -257,8 +257,8 @@ Objects {
       Yaw: 89.9999542
     }
     Scale {
-      X: 0.3
-      Y: 1
+      X: 0.32
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -313,8 +313,8 @@ Objects {
       Yaw: 89.9999542
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 0.96
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -370,7 +370,7 @@ Objects {
     }
     Scale {
       X: 0.695
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -418,7 +418,7 @@ Objects {
   Transform {
     Location {
       X: 1325
-      Y: -1650
+      Y: -1647.323
       Z: 500
     }
     Rotation {
@@ -426,7 +426,7 @@ Objects {
     }
     Scale {
       X: 0.72
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -481,7 +481,7 @@ Objects {
     }
     Scale {
       X: 3.25
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -490,7 +490,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -537,7 +537,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -584,8 +584,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -660
-      Y: -381.5
+      X: -662.816406
+      Y: -397.876923
       Z: 500
     }
     Rotation {
@@ -593,7 +593,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -601,6 +601,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
@@ -634,8 +640,8 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -684
-      Y: -653
+      X: -659.481262
+      Y: -669.998535
       Z: 500
     }
     Rotation {
@@ -643,7 +649,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -699,7 +705,7 @@ Objects {
     }
     Scale {
       X: 1.66
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -755,7 +761,7 @@ Objects {
     }
     Scale {
       X: 1.07
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -764,7 +770,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -802,7 +808,7 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -1050
+      X: -1052.573
       Y: 450
       Z: 500
     }
@@ -810,8 +816,8 @@ Objects {
       Yaw: -179.999969
     }
     Scale {
-      X: 1.6
-      Y: 1
+      X: 1.566
+      Y: 0.334999889
       Z: 0.75
     }
   }
@@ -819,6 +825,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
@@ -852,128 +864,16 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -2350
-      Y: -600
+      X: -2300
+      Y: -578.106567
       Z: 500
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 1.35
-      Y: 1
-      Z: 0.75
-    }
-  }
-  ParentId: 1685320195325569556
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 5253371149103932828
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17600359723065005811
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9174921432250506119
-  Name: "Whitebox Wall 01"
-  Transform {
-    Location {
-      X: -1450
-      Y: -600
-      Z: 500
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 1.15
-      Y: 1
-      Z: 0.75
-    }
-  }
-  ParentId: 1685320195325569556
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_WallInner:id"
-      AssetReference {
-        Id: 5253371149103932828
-      }
-    }
-    Overrides {
-      Name: "ma:Building_WallInner2:id"
-      AssetReference {
-        Id: 10184847056121543272
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17600359723065005811
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3290782922354076997
-  Name: "Whitebox Wall 01"
-  Transform {
-    Location {
-      X: -1450
-      Y: -1650
-      Z: 500
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1.343
-      Y: 1
+      X: 1.28
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1028,7 +928,7 @@ Objects {
     }
     Scale {
       X: 4.25000048
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1036,6 +936,124 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17600359723065005811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9174921432250506119
+  Name: "Whitebox Wall 01"
+  Transform {
+    Location {
+      X: -1441.99341
+      Y: -579.481079
+      Z: 500
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1.08
+      Y: 0.335000962
+      Z: 0.75
+    }
+  }
+  ParentId: 1685320195325569556
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17600359723065005811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3290782922354076997
+  Name: "Whitebox Wall 01"
+  Transform {
+    Location {
+      X: -1450
+      Y: -1650
+      Z: 500
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1.343
+      Y: 0.335
+      Z: 0.75
+    }
+  }
+  ParentId: 1685320195325569556
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
@@ -1086,8 +1104,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1000
-            Y: -1100
+            X: -1081.4978
+            Y: -1181.68311
             Z: 485
           }
         }
@@ -1099,9 +1117,22 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.736627638
+            Y: 0.736627638
+            Z: 0.736627638
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11929612551787929915
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3.97265625
+            Y: -9.15918
+            Z: 111.238403
           }
         }
       }
@@ -1120,6 +1151,45 @@ Objects {
             X: -0.376952976
             Y: -0.376952797
             Z: 4.93762207
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15884294934613717305
+      value {
+        Overrides {
+          Name: "ma:Shared_Detail2:id"
+          AssetReference {
+            Id: 36944159428947855
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail3:id"
+          AssetReference {
+            Id: 36944159428947855
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 36944159428947855
+          }
+        }
+        Overrides {
+          Name: "DisableCastShadows"
+          Bool: false
+        }
+        Overrides {
+          Name: "DisableReceiveDecals"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.0843762159
+            G: 0.045186203
+            A: 1
           }
         }
       }
