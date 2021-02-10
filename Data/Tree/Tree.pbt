@@ -18,10 +18,10 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
-  ChildIds: 3230840075271867913
   ChildIds: 7131362699653279153
   ChildIds: 1685320195325569556
   ChildIds: 18151060096035821719
+  ChildIds: 16196924153266083812
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +31,95 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16196924153266083812
+  Name: "Beta Floor"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.33
+      Y: 1.33
+      Z: 1.33
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11145257444793891484
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11145257444793891484
+  Name: "Cube - Polished"
+  Transform {
+    Location {
+      X: -112.782288
+      Y: -350
+      Z: 350
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 18
+      Y: 33.5
+      Z: 0.25
+    }
+  }
+  ParentId: 16196924153266083812
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.733333349
+        B: 0.21960786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14850790277234973493
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13234655070956423295
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -1187,32 +1276,6 @@ Objects {
     TemplateAsset {
       Id: 2416054557371238600
     }
-  }
-}
-Objects {
-  Id: 3230840075271867913
-  Name: "MapGrid"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "MapGrid"
   }
 }
 Objects {
