@@ -21,6 +21,7 @@ Objects {
   ChildIds: 3230840075271867913
   ChildIds: 7131362699653279153
   ChildIds: 1685320195325569556
+  ChildIds: 18151060096035821719
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,65 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 18151060096035821719
+  Name: "Desert Rain God"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5741124676442606527
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Desert Rain God"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1100
+            Y: -650
+            Z: 600
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8270807851945367742
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -100
+            Y: 50
+            Z: 400
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11975861657305228775
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -300
+            Z: -50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2214414804439892927
+    }
   }
 }
 Objects {
