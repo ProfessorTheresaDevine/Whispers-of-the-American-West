@@ -20,7 +20,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 7131362699653279153
   ChildIds: 1685320195325569556
-  ChildIds: 18151060096035821719
+  ChildIds: 5932103595784667553
   ChildIds: 16196924153266083812
   UnregisteredParameters {
   }
@@ -123,62 +123,1134 @@ Objects {
   }
 }
 Objects {
-  Id: 18151060096035821719
-  Name: "Desert Rain God"
+  Id: 5932103595784667553
+  Name: "Flattened Desert Rain God"
   Transform {
+    Location {
+      X: -375
+      Y: -350
+      Z: 750
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.6
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5863896105790325330
+  ChildIds: 8976749237200199783
+  ChildIds: 670837734631553161
+  ChildIds: 13016972597542457814
+  ChildIds: 10773578271450475974
+  ChildIds: 16826207952168990461
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5932103595784667553
+    SubobjectId: 16005477699438633121
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16826207952168990461
+  Name: "Tele Trigger"
+  Transform {
+    Location {
+      X: -791.666626
+      Y: -666.666626
+      Z: -250.000092
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.66666663
+      Y: 1.66666663
+      Z: 1.66666663
+    }
+  }
+  ParentId: 5932103595784667553
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Desert Rain God"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10773578271450475974
+  Name: "Plants"
+  Transform {
+    Location {
+      Y: 125
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5741124676442606527
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Desert Rain God"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1100
-            Y: -650
-            Z: 600
-          }
-        }
+  ParentId: 5932103595784667553
+  ChildIds: 16921756484427186431
+  ChildIds: 15676338736961113517
+  ChildIds: 13563608782741217109
+  ChildIds: 7680685151625915307
+  ChildIds: 16471684216429312305
+  ChildIds: 10858467958007379027
+  ChildIds: 16675122406998491395
+  ChildIds: 14064633845120833626
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10773578271450475974
+    SubobjectId: 1859566339384265926
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 14064633845120833626
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -650
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.02
+      Y: 0.002
+      Z: 0.02
+    }
+  }
+  ParentId: 10773578271450475974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:utile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16623221027640379342
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
     }
-    ParameterOverrideMap {
-      key: 8270807851945367742
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -100
-            Y: 50
-            Z: 400
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 14064633845120833626
+    SubobjectId: 5720253319410415962
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 16675122406998491395
+  Name: "Clover Patch 01"
+  Transform {
+    Location {
+      X: -850
+      Y: -750
+      Z: -70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.02
+      Z: 0.2
+    }
+  }
+  ParentId: 10773578271450475974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15521930820618606961
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
     }
-    ParameterOverrideMap {
-      key: 11975861657305228775
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: -300
-            Z: -50
-          }
-        }
+  }
+  InstanceHistory {
+    SelfId: 16675122406998491395
+    SubobjectId: 7720329315872972803
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 10858467958007379027
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -750
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.4
+      Y: 0.02
+      Z: 0.35
+    }
+  }
+  ParentId: 10773578271450475974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.880066216
+        G: 0.97
+        A: 1
       }
     }
-    TemplateAsset {
-      Id: 2214414804439892927
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16850483343420922214
     }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10858467958007379027
+    SubobjectId: 1944700662974797139
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 16471684216429312305
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -950
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.02
+      Y: 0.002
+      Z: 0.02
+    }
+  }
+  ParentId: 10773578271450475974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:utile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16623221027640379342
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16471684216429312305
+    SubobjectId: 7555593659778111537
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 7680685151625915307
+  Name: "Grass Short"
+  Transform {
+    Location {
+      X: -800
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.4
+      Y: 0.02
+      Z: 0.35
+    }
+  }
+  ParentId: 10773578271450475974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Grass:color"
+      Color {
+        R: 0.880066216
+        G: 0.97
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16850483343420922214
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7680685151625915307
+    SubobjectId: 16634810017189350059
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 13563608782741217109
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: -700
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.3
+      Y: 0.03
+      Z: 0.3
+    }
+  }
+  ParentId: 10773578271450475974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11960834488338027200
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13563608782741217109
+    SubobjectId: 3492101379776937557
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 15676338736961113517
+  Name: "Bush 02"
+  Transform {
+    Location {
+      X: -850
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.02
+      Z: 0.2
+    }
+  }
+  ParentId: 10773578271450475974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12263438320724936814
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15676338736961113517
+    SubobjectId: 6179073819457268909
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 16921756484427186431
+  Name: "Bush Leafy Tall 01"
+  Transform {
+    Location {
+      X: -900
+      Y: -750
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.2
+      Y: 0.02
+      Z: 0.2
+    }
+  }
+  ParentId: 10773578271450475974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16895410125752254068
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16921756484427186431
+    SubobjectId: 7393738778644046335
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 13016972597542457814
+  Name: "Whitebox Wall 01"
+  Transform {
+    Location {
+      X: -1050
+      Y: -550
+      Z: -250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.64166671
+      Y: 0.416666657
+      Z: 0.833333313
+    }
+  }
+  ParentId: 5932103595784667553
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.0899999738
+        G: 0.16834414
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.18
+        G: 0.804503202
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17600359723065005811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 670837734631553161
+  Name: "Rocks"
+  Transform {
+    Location {
+      Y: -80
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5932103595784667553
+  ChildIds: 11732872768498428374
+  ChildIds: 15803208813247211198
+  ChildIds: 9146757523160826482
+  ChildIds: 17624550094399780727
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 670837734631553161
+    SubobjectId: 9584428279390919049
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 17624550094399780727
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: -800
+      Y: -500
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.04
+      Z: 1
+    }
+  }
+  ParentId: 670837734631553161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.3695364
+        B: 0.149999976
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15376226993922491488
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17624550094399780727
+    SubobjectId: 8708566460352386679
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 9146757523160826482
+  Name: "Rock 03"
+  Transform {
+    Location {
+      X: -800
+      Y: -500
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.3
+      Y: 0.03
+      Z: 0.7
+    }
+  }
+  ParentId: 670837734631553161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.3695364
+        B: 0.149999976
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17619266906861795736
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9146757523160826482
+    SubobjectId: 17483605292494873458
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 15803208813247211198
+  Name: "Rock Pile 001"
+  Transform {
+    Location {
+      X: -950
+      Y: -510
+      Z: -70
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.1
+      Z: 1
+    }
+  }
+  ParentId: 670837734631553161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.3695364
+        B: 0.149999976
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12916316251608322361
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15803208813247211198
+    SubobjectId: 6277375005991225278
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 11732872768498428374
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -900
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.4
+      Y: 0.04
+      Z: 0.4
+    }
+  }
+  ParentId: 670837734631553161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.3695364
+        B: 0.149999976
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5294260362262591823
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11732872768498428374
+    SubobjectId: 3359254855898761430
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 8976749237200199783
+  Name: "rainGod"
+  Transform {
+    Location {
+      X: -700
+      Y: -660
+      Z: -250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5932103595784667553
+  ChildIds: 3096384655631392155
+  ChildIds: 932837389607442709
+  ChildIds: 13988119041588324161
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8976749237200199783
+    SubobjectId: 17356345464659263847
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 13988119041588324161
+  Name: "Tree Oak Stump 01"
+  Transform {
+    Location {
+      X: -150
+      Y: 50
+      Z: 416.666656
+    }
+    Rotation {
+      Yaw: -179.999969
+      Roll: -179.999969
+    }
+    Scale {
+      X: 0.2
+      Y: 0.02
+      Z: 0.5
+    }
+  }
+  ParentId: 8976749237200199783
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14507425577214137035
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13988119041588324161
+    SubobjectId: 5643636810569877057
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 932837389607442709
+  Name: "Kelp Bush 02"
+  Transform {
+    Location {
+      X: -100
+      Y: 50
+      Z: 350
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.1
+      Z: 1
+    }
+  }
+  ParentId: 8976749237200199783
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3807839183756083785
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 932837389607442709
+    SubobjectId: 9277392456342108181
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 3096384655631392155
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: -100
+      Y: 50
+      Z: 375
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.5
+      Y: 0.125
+      Z: 0.5
+    }
+  }
+  ParentId: 8976749237200199783
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11960834488338027200
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3096384655631392155
+    SubobjectId: 12012613755021622427
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
+  }
+}
+Objects {
+  Id: 5863896105790325330
+  Name: "Base"
+  Transform {
+    Location {
+      X: -800
+      Y: -600
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 0.3
+      Z: 1
+    }
+  }
+  ParentId: 5932103595784667553
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.464635789
+        B: 0.139999986
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534403291511409237
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5863896105790325330
+    SubobjectId: 15937482138165977938
+    InstanceId: 15197925810008617440
+    TemplateId: 15897489906823764663
   }
 }
 Objects {
