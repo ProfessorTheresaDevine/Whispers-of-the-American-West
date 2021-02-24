@@ -1311,7 +1311,7 @@ Objects {
     }
     Scale {
       X: 0.81
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1367,7 +1367,7 @@ Objects {
     }
     Scale {
       X: 1.14
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1423,7 +1423,7 @@ Objects {
     }
     Scale {
       X: 0.43
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1479,7 +1479,7 @@ Objects {
     }
     Scale {
       X: 0.3
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1535,7 +1535,7 @@ Objects {
     }
     Scale {
       X: 1
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1591,7 +1591,7 @@ Objects {
     }
     Scale {
       X: 0.695
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1647,7 +1647,7 @@ Objects {
     }
     Scale {
       X: 0.72
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1702,7 +1702,7 @@ Objects {
     }
     Scale {
       X: 3.25
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1711,7 +1711,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -1758,7 +1758,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1814,7 +1814,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1822,6 +1822,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
@@ -1864,7 +1870,7 @@ Objects {
     }
     Scale {
       X: 0.5
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1920,7 +1926,7 @@ Objects {
     }
     Scale {
       X: 1.66
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1976,7 +1982,7 @@ Objects {
     }
     Scale {
       X: 1.07
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -1985,7 +1991,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -2032,7 +2038,7 @@ Objects {
     }
     Scale {
       X: 1.6
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -2040,6 +2046,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
@@ -2082,7 +2094,7 @@ Objects {
     }
     Scale {
       X: 1.35
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -2091,7 +2103,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -2138,7 +2150,7 @@ Objects {
     }
     Scale {
       X: 1.15
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -2147,7 +2159,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 5253371149103932828
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -2194,7 +2206,7 @@ Objects {
     }
     Scale {
       X: 1.343
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -2249,7 +2261,7 @@ Objects {
     }
     Scale {
       X: 4.25000048
-      Y: 1
+      Y: 0.335
       Z: 0.75
     }
   }
@@ -2257,6 +2269,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 10184847056121543272
       }
