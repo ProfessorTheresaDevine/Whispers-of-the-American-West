@@ -64,7 +64,7 @@ Objects {
   Name: "Cube - Polished"
   Transform {
     Location {
-      X: -112.782288
+      X: -112.782
       Y: -350
       Z: 350
     }
@@ -114,6 +114,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -276,6 +277,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -323,6 +325,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -380,6 +383,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -433,6 +437,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -490,6 +495,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -537,6 +543,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -584,6 +591,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -631,6 +639,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -710,6 +719,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -798,6 +808,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -856,6 +867,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -914,6 +926,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -971,6 +984,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1065,6 +1079,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1120,6 +1135,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1181,6 +1197,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1239,6 +1256,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1299,7 +1317,7 @@ Objects {
 }
 Objects {
   Id: 694981249331137829
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 North H-Gallery"
   Transform {
     Location {
       X: 800
@@ -1310,8 +1328,8 @@ Objects {
       Yaw: 180
     }
     Scale {
-      X: 0.81
-      Y: 0.335
+      X: 0.82
+      Y: 0.334999919
       Z: 0.75
     }
   }
@@ -1345,6 +1363,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1355,7 +1374,7 @@ Objects {
 }
 Objects {
   Id: 5557407166077829628
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 East H-Gallery"
   Transform {
     Location {
       X: 140
@@ -1401,6 +1420,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1411,7 +1431,7 @@ Objects {
 }
 Objects {
   Id: 1802077901335269656
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 West H-Gallery"
   Transform {
     Location {
       X: 800
@@ -1457,6 +1477,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1467,7 +1488,7 @@ Objects {
 }
 Objects {
   Id: 10682383150077529974
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 Half Wall Spawn Point Gallery"
   Transform {
     Location {
       X: 459
@@ -1513,6 +1534,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1523,7 +1545,7 @@ Objects {
 }
 Objects {
   Id: 1875169302478502230
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 West Front Wall"
   Transform {
     Location {
       X: 1300
@@ -1534,7 +1556,7 @@ Objects {
       Yaw: 89.9999542
     }
     Scale {
-      X: 1
+      X: 0.96
       Y: 0.335
       Z: 0.75
     }
@@ -1569,6 +1591,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1579,7 +1602,7 @@ Objects {
 }
 Objects {
   Id: 1731933016729072410
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 Middle Front Wall"
   Transform {
     Location {
       X: 1650
@@ -1625,6 +1648,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1635,18 +1659,18 @@ Objects {
 }
 Objects {
   Id: 18221907118437849534
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 East Front Wall"
   Transform {
     Location {
       X: 1325
-      Y: -1650
+      Y: -1655.38562
       Z: 500
     }
     Rotation {
       Yaw: 89.9999847
     }
     Scale {
-      X: 0.72
+      X: 0.73
       Y: 0.335
       Z: 0.75
     }
@@ -1681,6 +1705,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1691,7 +1716,7 @@ Objects {
 }
 Objects {
   Id: 6114383325616012694
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 North Spawn Point Gallery"
   Transform {
     Location {
       X: -660
@@ -1736,6 +1761,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1746,7 +1772,7 @@ Objects {
 }
 Objects {
   Id: 7395246117683345203
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 West Chief Gallery"
   Transform {
     Location {
       X: -600
@@ -1792,6 +1818,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1802,11 +1829,11 @@ Objects {
 }
 Objects {
   Id: 5913765345485436111
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 North Alcove Wall "
   Transform {
     Location {
-      X: -660
-      Y: -381.5
+      X: -662
+      Y: -398
       Z: 500
     }
     Rotation {
@@ -1848,6 +1875,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1858,11 +1886,11 @@ Objects {
 }
 Objects {
   Id: 7901021593127146927
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 Rain God Wall"
   Transform {
     Location {
-      X: -684
-      Y: -653
+      X: -658.86377
+      Y: -670
       Z: 500
     }
     Rotation {
@@ -1904,6 +1932,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1914,7 +1943,7 @@ Objects {
 }
 Objects {
   Id: 10410565026488691905
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 East Spawn Point Gallery"
   Transform {
     Location {
       X: -660
@@ -1960,6 +1989,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -1970,7 +2000,7 @@ Objects {
 }
 Objects {
   Id: 2320004007310499818
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 West Curtis Galllery"
   Transform {
     Location {
       X: -1060
@@ -2016,6 +2046,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2026,10 +2057,10 @@ Objects {
 }
 Objects {
   Id: 1603571250385292945
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 Noth Curis Gallery"
   Transform {
     Location {
-      X: -1050
+      X: -1052
       Y: 450
       Z: 500
     }
@@ -2037,7 +2068,7 @@ Objects {
       Yaw: -179.999969
     }
     Scale {
-      X: 1.6
+      X: 1.63
       Y: 0.335
       Z: 0.75
     }
@@ -2072,6 +2103,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2082,18 +2114,18 @@ Objects {
 }
 Objects {
   Id: 7719678015805827233
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 East Curtis Gallery"
   Transform {
     Location {
-      X: -2350
-      Y: -600
+      X: -2354
+      Y: -578
       Z: 500
     }
     Rotation {
       Yaw: 90
     }
     Scale {
-      X: 1.35
+      X: 1.3
       Y: 0.335
       Z: 0.75
     }
@@ -2128,6 +2160,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2138,11 +2171,11 @@ Objects {
 }
 Objects {
   Id: 9174921432250506119
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 South Curtis Gallery"
   Transform {
     Location {
-      X: -1450
-      Y: -600
+      X: -1442.27222
+      Y: -580
       Z: 500
     }
     Rotation {
@@ -2184,6 +2217,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2194,7 +2228,7 @@ Objects {
 }
 Objects {
   Id: 3290782922354076997
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 East Chief Gallery"
   Transform {
     Location {
       X: -1450
@@ -2240,6 +2274,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2250,10 +2285,10 @@ Objects {
 }
 Objects {
   Id: 13561624823128414920
-  Name: "Whitebox Wall 01"
+  Name: "Whitebox Wall 01 South"
   Transform {
     Location {
-      X: -1450
+      X: -1457
       Y: -1650
       Z: 500
     }
@@ -2295,6 +2330,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     EnableCameraCollision: true
+    InteractWithTriggers: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -2326,7 +2362,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -1000
-            Y: -1100
+            Y: -1161.32483
             Z: 485
           }
         }
@@ -2966,6 +3002,11 @@ Objects {
       PhysicsSettings {
         MinContactOffset: 2
         MaxContactOffset: 8
+      }
+      VfxSettings {
+        LowDistance: 4500
+        MediumDistance: 7000
+        HighDistance: 9000
       }
     }
   }

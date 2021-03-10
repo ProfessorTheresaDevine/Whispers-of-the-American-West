@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Bronze statue for use in Whispers of the American West."
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

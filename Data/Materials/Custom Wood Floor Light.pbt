@@ -2,7 +2,7 @@ Assets {
   Id: 14850790277234973493
   Name: "Museum Light Wood Floor"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 17124780744134151923
     ParameterOverrides {
